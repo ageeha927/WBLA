@@ -1,0 +1,42 @@
+html{
+    background-color: rgb(244,239,230);
+    margin: none;
+    padding: none;
+    border: none;
+}
+
+body{
+    margin: 0;
+}
+
+.banner img{
+    width: 102%;
+    height: auto;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+ooter {
+    background-color: #c5d0ff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.footer-left,
+.footer-right {
+    flex-basis: 48%;
+}
+
+.footer-right {
+    text-align:center;
+    
+}
