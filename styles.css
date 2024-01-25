@@ -10,8 +10,11 @@ body{
 }
 
 .banner img{
-    width: 102%;
+    max-width: 100%;
     height: auto;
+    border: .8rem solid rgb(212,180,232);
+    border-left: 0;
+    border-right: 0;
 }
 
 ::-webkit-scrollbar {
@@ -22,7 +25,7 @@ ooter {
     background-color: #c5d0ff;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: .7rem;
 }
 .footer-container {
     display: flex;
@@ -38,5 +41,5 @@ ooter {
 
 .footer-right {
     text-align:center;
-    
 }
+
