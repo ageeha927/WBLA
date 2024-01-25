@@ -16,28 +16,26 @@
 <body>
     <nav>
         <ul class="navbar">
-            <li><a href="./store.html"><button>Home</button></a></li>
-            <li><a href="./"><button>Shop</button></a></li>
-            <li><a href="./aboutUs.html"><button>About Us</button></a></li>
+            <li><a href="./index.html"><button class="font">Home</button></a></li>
+            <li><a href="./store.html"><button class="font" >Shop</button></a></li>
+            <li><a href="./aboutUs.html"><button class="font">About Us</button></a></li>
         </ul>
     </nav>
     <main>
         <div class="banner">
             <img src="./Images/banner logo.png" alt="Banner">
         </div>
-        <div>
-            <div class="cards_titles">
-                <ul>
-                    <li>Mission</li>
-                    <li>Values</li>
-                    <li>Eco-Friendly Practices</li>
-                </ul>
-            </div>
-        </div>
+        <nav>
+            <ul class="navbar" class="card_titles">
+                <li id="mission"><a href=""><button class="font">Mission<br>&#10084;</button></a></li>
+                <li id="values"><a href=""><button class="font">Values<br>&#10084;</button></a></li>
+                <li id="eco"><a href=""><button class="font">Eco Friendly<br>Practices &#10084;</button></a></li>
+            </ul>
+        </nav>
         <div class="cards">
             <img src="./Images/card 1.png" alt="Ethical Threads">
             <img src="./Images/card 2.png" alt="Local Finds">
-            <img src="./Images/card 3.png" alt="Local fashion">
+            <img id="eco_img" src="./Images/card 3.png" alt="Local fashion">
         </div>
         <div class="store">
             Shop Now
@@ -56,13 +54,9 @@
                 <h4>Over 200+</h4>
                 <p>Locally Sourced Materials</p>
             </div>
-            <div class="main_img">
-                <div class="main_grid">
-                    <img src="./Images/main_grid.png" alt="Stylish Grid">
-                </div>
-                <div class="main_box"></div>
-                <img src="./Images/main img.png" alt="Locally sourced fashion">
-            </div>
+
+                <img class="main_img" src="./Images/main img.png" alt="Locally sourced fashion">
+            
         </section>
     </main>
     <footer class="footer">

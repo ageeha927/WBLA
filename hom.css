@@ -4,17 +4,15 @@ body{
 
 button {
     background-color: #17968b;
-    color: white;
-    padding: 10px 50px;
+    color: rgb(0, 0, 0);
+    padding: .625rem 3.125rem;
     text-decoration: none;
     border: none;
-    border-radius: 5px;
+    border-radius: .3125rem;
   }
 
 nav {
-    background-color: #f4efe6;
-    padding: 10px 0;
-    height: 60px;
+    height: 3.75rem;
 }
 
 nav ul.navbar {
@@ -22,30 +20,27 @@ nav ul.navbar {
     margin: 0;
     padding: 0;
     text-align: justify; 
-    margin: 10px;
+    margin: .625rem;
 }
 
 nav ul.navbar li {
     float: left;
     margin: 0;
-    padding: 0;
     text-decoration-color: white;
     font-family: 'Montserrat Classic';
 
 }
 
-nav ul.navbar li a {
-    background-color:#f4efe6; 
+nav ul.navbar li a { 
     color: rgb(253, 253, 253);
     text-align: left;
     display: block;
     padding: 8px;
     text-decoration: none;
-    margin-right: 20px; 
-    border-radius: 5px; 
+    margin-right: 1.25rem; 
+    border-radius: .3125rem; 
 }
 
 nav ul.navbar li a:hover {
-    background-color: #f4efe6; 
     transform: scale(1.3);
 }
