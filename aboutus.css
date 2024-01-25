@@ -50,6 +50,86 @@ nav ul.navbar li a:hover {
     transform: scale(1.3);
 }
 
+.story {
+    background-color: rgb(101, 100, 100);
+    padding: 10px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    max-width: 1150px;
+    height: 450px;
+    margin-top: 20px;
+    border-radius: 50px; 
+    margin-left: 180px;
+    opacity: 70%;
+}
+.story h1 {
+    font-size: 44px;
+    margin-bottom: 35px;
+    color: #d3d230;
+}
+
+.story p {
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 16px;
+}
+
+.mission {
+    background-color: rgb(101, 100, 100);
+    padding: 10px;
+    display: inline-block;
+    justify-content: center;
+    height: 450px;
+    text-align: center;
+    max-width: 1150px;
+    margin-top: 70px;
+    border-radius: 50px; 
+    margin-left: 180px;
+    opacity: 70%;
+
+}
+
+.mission h1 {
+    font-size: 44px;
+    margin-bottom: 35px;
+    color: #d3d230;
+}
+
+.mission p {
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 16px;
+}
+
+.practices {
+    background-color: rgb(101, 100, 100);
+    padding: 10px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    max-width: 1150px;
+    height: 450px;
+    margin-top: 70px;
+    border-radius: 50px; 
+    margin-left: 180px;
+    opacity: 70%;
+
+}
+.practices h1 {
+    font-size: 44px;
+    margin-bottom: 35px;
+    color: #d3d230;
+    opacity: none;
+}
+
+.practices p {
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 16px;
+    opacity: none;
+}
+
 footer {
     background-color: #f4efe6;
     color: white;
