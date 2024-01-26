@@ -22,6 +22,10 @@ button {
     font-family: Seasons;
 }
 
+.font2 {
+    font-size: 2rem;
+    font-family: Seasons;  
+}
 
 nav {
     background-color: #f4efe6;
@@ -70,6 +74,20 @@ nav ul.navbar li a:hover {
     border-right: 0;
 }
 
-.footer_logo {
-    max-width: 20%;
+.main_img {
+    max-width: 60%;
+    float: right;
 }
+
+.cards img {
+    width: 300px; 
+    height: auto;
+    padding-left: 135px; 
+}
+
+#card_title{
+    margin-left: 125px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+

@@ -108,35 +108,3 @@ footer {
     left: 66rem;
 }
 
-.cards img{
-    width: 35rem;
-    height: auto;
-    padding-left: 7rem;
-}
-
-.card_titles{
-    padding-left: 7rem;
-}
-
-#eco_img{
-    width: 35.8rem;
-    height: auto;
-}
-
-#mission{
-    padding-left: 15rem;
-    padding-bottom: 3rem;
-    padding-top: 9rem;
-}
-
-#values{
-    padding-left: 27rem;
-    padding-bottom: 3rem;
-    padding-top: 9rem;
-}
-
-#eco{
-    padding-left: 26rem;
-    padding-bottom: 3rem;
-    padding-top: 9rem;
-}
