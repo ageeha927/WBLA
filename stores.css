@@ -2,18 +2,30 @@ body{
     background-color: #f4efe6;
 }
 
+
 button {
     background-color: #17968b;
-    color: white;
-    padding: 10px 50px;
+    color: rgb(0, 0, 0);
+    padding: .625rem 3.125rem;
     text-decoration: none;
     border: none;
-    border-radius: 5px;
+    border-radius: .3125rem;
   }
+
+@font-face {
+    font-family: Seasons;
+    src: url(./Images/Fontspring-DEMO-theseasons-reg.otf);
+}
+
+.font{
+    font-size: 2rem;
+    font-family: Seasons;
+}
+
 
 nav {
     background-color: #f4efe6;
-    padding: 10px 0;
+    padding: 5px 0;
     height: 60px;
 }
 
