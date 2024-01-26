@@ -1,15 +1,34 @@
 body{
     background-color: #f4efe6;
+    margin: 0;
 }
 
 button {
     background-color: #17968b;
-    color: white;
-    padding: 10px 50px;
+    color: rgb(0, 0, 0);
+    padding: .625rem 3.125rem;
     text-decoration: none;
     border: none;
-    border-radius: 5px;
+    border-radius: .3125rem;
   }
+
+@font-face {
+    font-family: Seasons;
+    src: url(./Images/Fontspring-DEMO-theseasons-reg.otf);
+}
+
+.font{
+    font-size: 2rem;
+    font-family: Seasons;
+}
+
+.banner img{
+    max-width: 100%;
+    height: auto;
+    border: .8rem solid rgb(212,180,232);
+    border-left: 0;
+    border-right: 0;
+}
 
 nav {
     background-color: #f4efe6;
@@ -48,8 +67,8 @@ nav ul.navbar li a {
 nav ul.navbar li a:hover {
     background-color: #f4efe6; 
     transform: scale(1.3);
-    transition-duration: 1second;
 }
+
 /* GRID CONTAINER */
 .grid-container{
     display: grid;
