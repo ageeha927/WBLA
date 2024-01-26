@@ -86,8 +86,94 @@ nav ul.navbar li a:hover {
 }
 
 #card_title{
-    margin-left: 125px;
+    margin-left: 145px;
     margin-top: 30px;
     margin-bottom: 20px;
 }
+
+/* Style for the <aside> tag */
+aside {
+    background-color: #f8f8f8;
+    padding: 30px; /* Increased padding for a higher height */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+/* Style for the headings inside <aside> */
+aside h6 {
+    color: #333;
+    font-size: 18px;
+}
+
+aside .about_header {
+    color: rgb(212,180,232);
+    font-size: 28px; 
+}
+
+/* Style for the paragraph inside <aside> */
+aside .about_text {
+    color: #666; 
+    font-size: 16px;
+}
+
+/* Style for the button inside <aside> */
+aside button {
+    background-color: rgb(212,180,232); 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+/* Hover effect for the button inside <aside> */
+aside button:hover {
+    background-color: rgb(212,180,232);
+}
+
+/* Container for the <aside> and image */
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* Style for the image inside the .about section */
+.about .main_img {
+    max-width: 50%; 
+}
+
+/* Container for the <aside>, about bubble, and image */
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Style for the image inside the .about section */
+.about .main_img {
+    max-width: 50%;
+}
+
+/* Style for the "Shop Now" button */
+.shop_button {
+    background-color: #17968b;
+    font-size: xx-large;
+    font-family: Seasons;
+    display: inline-block;
+    color: #fff;
+    padding: 15px 30px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block; 
+    margin-top: 60px; 
+    margin-bottom: 40px; 
+    margin-left: 40%;
+}
+
 
