@@ -90,22 +90,21 @@ nav ul.navbar li a:hover {
     justify-content: center;
     text-align: center;
     max-width: 1150px;
-    height: 350px;
+    height: auto;
     margin-top: 20px;
     border-radius: 50px; 
     margin-left: 180px;
     margin-bottom: 25px;
 }
 
-
 .test h1 {
     font-size: 45px;
-    margin-bottom: 35px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
     color: #d3d230;
     letter-spacing: 5px;
     font-family: Seasons ;
 }
-
 .test p {
     padding-left: 2.1875rem;
     padding-right: 2.1875rem;
@@ -120,6 +119,10 @@ footer {
     text-align: center;
     padding: .625rem;
     margin-top: 20px;
+}
+.footer_logo{
+    width: 4rem;
+    height: 4rem;
 }
 
 /* Dark section styles */

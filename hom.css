@@ -10,6 +10,7 @@ button {
     text-decoration: none;
     border: none;
     border-radius: .3125rem;
+    margin-left: 1rem;
 }
 
 @font-face {
@@ -175,6 +176,10 @@ aside button:hover {
     margin-top: 60px; 
     margin-bottom: 40px; 
     margin-left: 40%;
+}
+.footer_logo{
+    width: 4rem;
+    height: 4rem;
 }
 
 
