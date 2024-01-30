@@ -84,11 +84,11 @@ nav ul.navbar li a:hover {
 .cards img {
     width: 300px; 
     height: auto;
-    padding-left: 135px; 
+    padding-left: 9.8vw; 
 }
 
 #card_title{
-    margin-left: 145px;
+    margin-left: 9.8vw;
     margin-top: 30px;
     margin-bottom: 20px;
 }
@@ -139,6 +139,7 @@ aside button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 3vh;
 }
 
 
