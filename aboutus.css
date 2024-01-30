@@ -77,7 +77,8 @@ nav ul.navbar li a:hover {
 /* Banner image styles */
 .banner img {
     max-width: 100%;
-    height: auto;
+    height: 35rem;
+    width: 100%;
     border: .8rem solid rgb(212, 180, 232);
     border-left: 0;
     border-right: 0;
@@ -100,7 +101,7 @@ nav ul.navbar li a:hover {
 .test h1 {
     font-size: 45px;
     margin-bottom: 2rem;
-    margin-top: 1rem;
+    margin-top: 8px;
     color: #d3d230;
     letter-spacing: 5px;
     font-family: Seasons ;
