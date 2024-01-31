@@ -82,15 +82,17 @@ nav ul.navbar li a:hover {
 }
 
 .cards img {
-    width: 300px; 
+    width: 22vw; 
     height: auto;
-    padding-left: 9.8vw; 
+    margin-left: 8vw; 
 }
-
-#card_title{
-    margin-left: 9.8vw;
-    margin-top: 30px;
-    margin-bottom: 20px;
+#title_1{
+    margin-left: 7.5vw;
+    width: 22vw;
+}
+#title_2{
+    margin-left: 8vw;
+    width: 22vw;
 }
 
 /* Style for the <aside> tag */
@@ -178,39 +180,17 @@ aside button:hover {
     margin-bottom: 40px; 
     margin-left: 40%;
 }
+footer {
+    background-color: #f4efe6;
+    color: rgb(61, 61, 61);
+    text-align: center;
+    padding: .625rem;
+    margin-top: 20px;
+}
 .footer_logo{
     width: 4rem;
     height: 4rem;
 }
 
 
-/* For screens smaller than 600px */
-@media screen and (max-width: 600px) {
-    /* Adjust styles for smaller screens */
-    /* Example: */
-    body {
-        font-size: 14px;
-    }
 
-    nav ul.navbar li {
-        margin-right: 10px;
-    }
-}
-
-/* For screens between 601px and 1200px */
-@media screen and (min-width: 601px) and (max-width: 1200px) {
-    /* Adjust styles for medium-sized screens */
-    /* Example: */
-    .main_img {
-        max-width: 80%;
-    }
-}
-
-/* For screens larger than 1200px */
-@media screen and (min-width: 1201px) {
-    /* Adjust styles for larger screens */
-    /* Example: */
-    .shop_button {
-        margin-left: 20%;
-    }
-}
