@@ -90,11 +90,13 @@ nav ul.navbar li a:hover {
     display: inline-block;
     justify-content: center;
     text-align: center;
-    max-width: 1150px;
+    max-width: 80vw;
     height: auto;
+    width: auto;
     margin-top: 20px;
     border-radius: 50px; 
-    margin-left: 180px;
+    margin-left: 10vw;
+    margin-right: 10vw;
     margin-bottom: 25px;
 }
 
