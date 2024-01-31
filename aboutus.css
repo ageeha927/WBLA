@@ -4,7 +4,11 @@ body {
     margin: 0;
 }
 
-/* Button styles */
+@font-face {
+    font-family: M Classic;
+    src: url(./Images/Montserrat-Regular.ttf);
+}
+
 button {
     background-color: #17968b;
     color: rgb(0, 0, 0);
@@ -12,6 +16,7 @@ button {
     text-decoration: none;
     border: none;
     border-radius: .3125rem;
+    margin-left: 1rem;
 }
 
 /* Custom font definition */
@@ -29,7 +34,6 @@ button {
 /* Navigation styles */
 nav {
     background-color: #f4efe6;
-    padding: 10px 0;
     height: 60px;
 }
 
@@ -59,161 +63,74 @@ nav ul.navbar li a {
     padding: 8px;
     text-decoration: none;
     margin-right: 20px; 
-    border-radius: 5px; 
+    border-radius: 5px;
+    transition: 2s;
 }
 
 /* Navigation link hover effect */
 nav ul.navbar li a:hover {
     background-color: #f4efe6; 
-    transform: scale(1.3);
+    transition: 1s;
+    transform: scale(1.1);
 }
 
 /* Banner image styles */
 .banner img {
     max-width: 100%;
-    height: auto;
+    height: 35rem;
+    width: 100%;
     border: .8rem solid rgb(212, 180, 232);
     border-left: 0;
     border-right: 0;
 } 
 
-/* Story section styles */
-.story {
+.test{
     background-color: hsla(0, 0%, 32%, 0.363);
     padding: 10px;
     display: inline-block;
     justify-content: center;
     text-align: center;
     max-width: 1150px;
-    height: 450px;
+    height: auto;
     margin-top: 20px;
     border-radius: 50px; 
     margin-left: 180px;
-    /* opacity: 70%; */
+    margin-bottom: 25px;
 }
 
-.story h1 {
-    font-size: 44px;
-    margin-bottom: 35px;
+.test h1 {
+    font-size: 45px;
+    margin-bottom: 2rem;
+    margin-top: 8px;
     color: #d3d230;
-}
-
-.story p {
-    padding-left: 35px;
-    padding-right: 35px;
-    font-size: 16px;
-}
-
-.story {
-    position: relative; 
-    height: 350px;
-    width: 71.875rem;
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
+    letter-spacing: 5px;
     font-family: Seasons ;
 }
 
-.story::before {    
-    content: "";
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-}
-
-/* Practices section styles */
-.practices {
-    position: relative; 
-    height: 28.125rem;
-    width: 71.875rem;
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
-}
-
-.practices::before {    
-    content: "";
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-}
-
-/* Mission section styles continued */
-.mission {
-    background-color: hsla(0, 0%, 6%, 0.433);
-    padding: 10px;
-    display: inline-block;
-    justify-content: center;
-    height: 350px;
-    text-align: center;
-    max-width: 1150px;
-    margin-top: 70px;
-    border-radius: 50px; 
-    margin-left: 180px;
-    opacity: 70%;
-    font-family: Seasons ;
-}
-
-.mission h1 {
-    font-size: 44px;
-    margin-bottom: 35px;
-    color: #d3d230;
-}
-
-.mission p {
+.test p {
     padding-left: 2.1875rem;
     padding-right: 2.1875rem;
-    font-size: 1rem;
-}
-
-/* Practices section styles continued */
-.practices {
-    background-color: hsla(0, 0%, 6%, 0.433);
-    padding: .625rem;
-    display: inline-block;
-    justify-content: center;
-    text-align: center;
-    max-width: 71.875rem;
-    height: 350px;
-    margin-top: 4.375rem;
-    border-radius: 3.125rem; 
-    margin-left: 11.25rem;
-    /* opacity: 70%; */
-    font-family: Seasons;
-}
-
-.practices h1 {
-    font-size: 2.75rem;
-    margin-bottom: 2.1875rem;
-    color: #d3d230;
-    /* opacity: none; */
-}
-
-.practices p {
-    padding-left: 2.1875rem;
-    padding-right: 2.1875rem;
-    font-size: 1rem;
-    opacity: none;
+    font-size: 25px;
+    font-family: M classic;
 }
 
 /* Footer styles */
 footer {
     background-color: #f4efe6;
-    color: rgb(47, 47, 47);
+    color: rgb(61, 61, 61);
     text-align: center;
     padding: .625rem;
+    margin-top: 20px;
+}
+.footer_logo{
+    width: 4rem;
+    height: 4rem;
 }
 
 /* Dark section styles */
 .dark {
     background-color: rgb(72, 72, 72);
-    padding: 2rem 0rem 2rem 0rem;
+    padding: 1rem 0rem 1rem 0rem;
     border-radius: 1.5625rem;
 }
 
