@@ -81,17 +81,28 @@ nav ul.navbar li a:hover {
 
 .cards img {
     width: 22vw; 
-    height: auto;
+    height: 562px;
     margin-left: 8vw; 
     border-radius: 15px;
 }
+
 #title_1{
-    margin-left: 7.5vw;
-    width: 22vw;
+    margin: 0 5vw 0 10vw ;
+    width: 17vw;
 }
+
 #title_2{
-    margin-left: 8vw;
-    width: 22vw;
+    margin: 0 5vw 0 8.5vw;
+    width: 16vw;
+}
+
+#title_3{
+    margin: 0 5vw 0 7vw;
+    width: 21vw;
+}
+
+.card_titles {
+    margin-bottom: 2vw;
 }
 
 /* Style for the <aside> tag */
