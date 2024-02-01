@@ -3,12 +3,12 @@ body {
     background-color: #f4efe6;
     margin: 0;
 }
-
+/* custom font */
 @font-face {
     font-family: M Classic;
     src: url(./Images/Montserrat-Regular.ttf);
 }
-
+/* navbar buttons */
 button {
     background-color: #17968b;
     color: rgb(0, 0, 0);
@@ -36,7 +36,7 @@ nav {
     background-color: #f4efe6;
     height: 60px;
 }
-
+/* Navbar spacing */
 nav ul.navbar {
     list-style-type: none;
     margin: 0;
@@ -83,7 +83,7 @@ nav ul.navbar li a:hover {
     border-left: 0;
     border-right: 0;
 } 
-
+/* About us container spacing */
 .test{
     background-color: hsla(0, 0%, 32%, 0.363);
     padding: 10px;
