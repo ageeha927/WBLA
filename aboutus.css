@@ -35,15 +35,10 @@ button {
 }
 @font-face{
     font-family: montserrat;
-    src: url(./montserrat/Montserrat-Regular.ttf);
+    src: url(./Images/Montserrat-Regular.ttf);
 }
 
 /* Navigation styles */
-nav {
-    background-color: #f4efe6;
-    height: 60px;
-}
-/* Navbar spacing */
 nav ul.navbar {
     list-style-type: none;
     margin: 0;
