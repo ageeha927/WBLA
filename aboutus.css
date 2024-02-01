@@ -30,6 +30,13 @@ button {
     font-size: 2rem;
     font-family: Seasons;
 }
+.font3 {
+    font-family: montserrat;
+}
+@font-face{
+    font-family: montserrat;
+    src: url(./montserrat/Montserrat-Regular.ttf);
+}
 
 /* Navigation styles */
 nav {
