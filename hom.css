@@ -54,7 +54,6 @@ nav ul.navbar li {
     padding: 0;
     text-decoration-color: white;
     font-family: 'Montserrat Classic';
-
 }
 
 nav ul.navbar li a {
@@ -62,9 +61,8 @@ nav ul.navbar li a {
     color: rgb(253, 253, 253);
     text-align: left;
     display: block;
-    padding: 8px;
+    margin: 8px 28px 8px 8px;
     text-decoration: none;
-    margin-right: 20px; 
     border-radius: 5px;
     transition: 2s; 
 }
@@ -91,7 +89,8 @@ nav ul.navbar li a:hover {
 .cards img {
     width: 22vw; 
     height: 562px;
-    margin-left: 8vw; 
+    margin-left: 8vw;
+    border-radius: 15px;
 }
 
 #title_1{
@@ -182,22 +181,6 @@ aside button:hover {
     max-width: 50%;
 }
 
-/* Style for the "Shop Now" button */
-.shop_button {
-    background-color: #17968b;
-    font-size: xx-large;
-    font-family: Seasons;
-    display: inline-block;
-    color: #fff;
-    padding: 15px 30px; 
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    display: block; 
-    margin-top: 60px; 
-    margin-bottom: 40px; 
-    margin-left: 40%;
-}
 footer {
     background-color: #f4efe6;
     color: rgb(61, 61, 61);
@@ -209,6 +192,3 @@ footer {
     width: 4rem;
     height: 4rem;
 }
-
-
-
