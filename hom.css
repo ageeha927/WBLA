@@ -27,7 +27,14 @@ button {
     font-size: 2rem;
     font-family: Seasons;  
 }
+.font3 {
+    font-family: montserrat;
 
+}
+@font-face{
+    font-family: montserrat;
+    src: url(./montserrat/Montserrat-Regular.ttf);
+}
 nav {
     background-color: #f4efe6;
     height: 60px;
@@ -35,6 +42,7 @@ nav {
 
 nav ul.navbar {
     list-style-type: none;
+    margin: 0;
     padding: 0;
     text-align: justify; 
     margin: 10px;
@@ -54,8 +62,9 @@ nav ul.navbar li a {
     color: rgb(253, 253, 253);
     text-align: left;
     display: block;
-    margin: 8px 28px 8px 8px;
+    padding: 8px;
     text-decoration: none;
+    margin-right: 20px; 
     border-radius: 5px;
     transition: 2s; 
 }
@@ -83,7 +92,6 @@ nav ul.navbar li a:hover {
     width: 22vw; 
     height: 562px;
     margin-left: 8vw; 
-    border-radius: 15px;
 }
 
 #title_1{
@@ -154,6 +162,8 @@ aside button:hover {
     margin-top: 3vh;
 }
 
+
+
 /* Style for the image inside the .about section */
 .about .main_img {
     max-width: 50%; 
@@ -172,13 +182,21 @@ aside button:hover {
     max-width: 50%;
 }
 
-/* Footer styles */
-footer {
-    background-color: #f4efe6;
-    color: rgb(61, 61, 61);
-    text-align: center;
-    padding: .625rem;
-    margin-top: 20px;
+/* Style for the "Shop Now" button */
+.shop_button {
+    background-color: #17968b;
+    font-size: xx-large;
+    font-family: Seasons;
+    display: inline-block;
+    color: #fff;
+    padding: 15px 30px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block; 
+    margin-top: 60px; 
+    margin-bottom: 40px; 
+    margin-left: 40%;
 }
 footer {
     background-color: #f4efe6;
@@ -191,3 +209,6 @@ footer {
     width: 4rem;
     height: 4rem;
 }
+
+
+
