@@ -33,7 +33,7 @@ button {
 }
 @font-face{
     font-family: montserrat;
-    src: url(./montserrat/Montserrat-Regular.ttf);
+    src: url(./Images/Montserrat-Regular.ttf);
 }
 nav {
     background-color: #f4efe6;
@@ -88,7 +88,7 @@ nav ul.navbar li a:hover {
 
 .cards img {
     width: 22vw; 
-    height: 562px;
+    height: 37vw;
     margin-left: 8vw;
     border-radius: 15px;
 }
